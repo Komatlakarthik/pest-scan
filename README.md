@@ -110,11 +110,29 @@ The system uses an ensemble of AI models (Google Gemini, Roboflow, Google Vision
 
 ## 📸 Screenshots
 
-> _Screenshots will appear here_
+### 🏠 Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+> Real-time weather (AP region), quick "Scan Crop Now" CTA, and field overview.
 
-| Diagnosis Screen | Treatment Plan | Field Dashboard |
-|---|---|---|
-| ![Diagnose](docs/screenshots/diagnose.png) | ![Treatment](docs/screenshots/treatment.png) | ![Fields](docs/screenshots/fields.png) |
+---
+
+### 🔬 AI Diagnosis — Late Blight Detection
+![Diagnosis Results](docs/screenshots/diagnose.png)
+> Roboflow AI detects **Late Blight** on Tomato with **83% confidence**.
+
+---
+
+### 💊 Treatment Plan
+| Overview (Do's & Don'ts) | Beetle Damage — Pepper |
+|---|---|
+| ![Treatment Do's](docs/screenshots/treatment-lateblight.png) | ![Treatment Beetle](docs/screenshots/treatement-beetle.png) |
+> AI-generated treatment steps, duration (14-21 days), estimated cost (₹1200-2000), and actionable do's & don'ts.
+
+---
+
+### 🛒 AgriShop — Top Recommended Medicines
+![Shop](docs/screenshots/shop.png)
+> Context-aware product recommendations (Mancozeb 75% WP, Copper Oxychloride) with Amazon / Flipkart / BigHaat buy links.
 
 ---
 
