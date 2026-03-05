@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#059669" />
+    <meta name="description" content="Smart Pest Doctor - AI-powered crop health assistant for farmers. Detect diseases, get treatment advice, and connect with experts." />
+    <meta name="keywords" content="agriculture, crop disease, pest detection, farming, AI assistant" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Smart Pest Doctor - AI Crop Health Assistant" />
+    <meta property="og:description" content="Detect crop diseases using AI, get treatment recommendations, and connect with agricultural experts." />
+    <meta property="og:image" content="/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Smart Pest Doctor" />
+    <meta property="twitter:description" content="AI-powered crop health assistant for farmers" />
+    <meta property="twitter:image" content="/og-image.png" />
+    
+    <!-- Apple specific -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Pest Doctor" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://res.cloudinary.com" />
+    <link rel="preconnect" href="https://api-inference.huggingface.co" />
+    
+    <title>Smart Pest Doctor - AI Crop Health Assistant</title>
+  </head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- OneSignal SDK (for push notifications) -->
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: sans-serif;">
+        <h1>JavaScript Required</h1>
+        <p>Please enable JavaScript to use Smart Pest Doctor.</p>
+      </div>
+    </noscript>
+  </body>
+</html>
