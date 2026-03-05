@@ -130,7 +130,7 @@ The system uses an ensemble of AI models (Google Gemini, Roboflow, Google Vision
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/pest-scan.git
+git clone https://github.com/Komatlakarthik/pest-scan.git
 cd pest-scan
 ```
 
@@ -305,8 +305,8 @@ Please read the [Contributing Guide](CONTRIBUTING.md) and respect the [Code of C
 
 **Built with ❤️ for farmers**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Project: [https://github.com/YOUR_USERNAME/pest-scan](https://github.com/YOUR_USERNAME/pest-scan)
+- GitHub: [@Komatlakarthik](https://github.com/Komatlakarthik)
+- Project: [https://github.com/Komatlakarthik/pest-scan](https://github.com/Komatlakarthik/pest-scan)
 
 ---
 
